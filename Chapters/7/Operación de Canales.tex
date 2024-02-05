@@ -1,0 +1,95 @@
+\chapter{Operación de Canales}
+\section{Conceptos básicos de operación y planeación de canales}
+\subsection{Eficiencias del agua de riego}
+\begin{definition}[Eficiencia en el uso del agua]
+    Es la relación entre el volumen de agua utilizado con un fin determinado y el volumen extraído o derivado de una fuente de abastecimiento con ese mismo fin
+    \begin{equation}
+        Ef = \frac{V_u}{V_e}
+    \end{equation}
+    \begin{notation}
+        \begin{itemize}
+            \item $Ef$= Eficiencia adimensional
+            \item $_Vu$= Volumen extraído $L^3$
+            \item $_Ve$= Volumen extraído de la fuente de abastecimiento $L^3$
+        \end{itemize}
+    \end{notation}
+\end{definition}
+Componentes de la eficiencia de uso para riego (Comisión internacional de Riego y Drenaje)
+\begin{itemize}
+    \item Almacenamiento
+    \item Conducción
+    \item De uso de riego en la parcela
+\end{itemize}
+\begin{definition}[Eficiencia de Almacenamiento]
+    Es la relación entre el volumen que se deriva para riego ($d_v$), entre el volumen que entra a un vaso de almacenamiento ($V_e$) para el mismo fin
+    \begin{equation}
+        Es = \frac{V_d}{V_e}
+    \end{equation}
+\end{definition}
+\begin{definition}[Eficiencia de Conducción]
+    Es la relación entre el volumen de agua que se entrega a las parcelas para riego ($V_p$) y el volumen que se deriva de la fuente de abastecimiento ($V_d$)
+    \begin{equation}
+        E_c = \frac{V_p}{V_d}
+    \end{equation}
+    \begin{notation}
+        \begin{itemize}
+            \item $V_u$= Volumen de agua útil almacenado en la zona de exploración de las raíces de las plantas
+            \item $V_p$= Volumen recibido en la parcela
+        \end{itemize}
+    \end{notation}
+\end{definition}
+\begin{align*}
+    E_i = \frac{V_u}{V_e} = \frac{V_d}{V_e} \times \frac{V_p}{V_d} \times \frac{V_u}{V_p}\\
+    E_i = E_s \times E_c \times E_a
+\end{align*}
+\begin{example}
+    Eficiencias del Distrito de Riego del Río Mayo, Sonora
+
+    \begin{itemize}
+        \item 34 años de operación de la presa ``Adolfo Ruiz Cortínez''
+        \item Entrada promedio de $980hm^3$ y salidas de $860 hm^3$
+        \item Eficiencia de almacenamiento:\footnote{Recordando que $1hm^3=1,000,000m^3=1,000,000,000$ litros} \begin{equation*}
+            E_s = \frac{V_d}{V_e} \cdot 100 = \frac{860}{980} \cdot 100 = 88\%
+        \end{equation*}
+        De los $120 hm^3$ que en promedio anual se han perdido: \begin{itemize}
+            \item $80 hm^3$ lo fueron por derrames por el vertedor
+            \item $40hm^3$ por evaporación en el vaso
+            \item Las pérdidas por filtración no son significativas
+        \end{itemize}
+    \end{itemize}
+\end{example}
+Las pérdidas por conducción son debidas a:
+\begin{itemize}
+    \item Infiltración
+    \item Evaporación
+    \item Fugas
+    \item Por manejo del agua en la red de distribución (operación)
+\end{itemize}
+\begin{align*}
+    &E_c = \frac{V_p}{V_d} \cdot 100 = \frac{545hm^3}{860hm^3} \cdot 100 = 63\%\\
+    &E_c = \frac{Q_p}{Q_d} \cdot 100 = \frac{20.3 \frac{m^3}{s}}{32 \frac{m^3}{s}} \cdot 100 = 63.4\%
+\end{align*}
+Para el año analizado, el volumen total extraído de la presa fue de $860hm^3$ ($V_d$), el servido $V_p=545hm^3$, las pérdidas totales de conducción de $315hm^3$, divididas en $180hm^3$ de intrínsecas y $135hm^3$ por operación
+\begin{table}[h!]
+    \begin{tabular}{@{}ccc@{}}
+    \toprule
+    \multirow{2}{*}{Tipo de pérdidas} & \multicolumn{2}{c}{Pérdidas} \\
+                                      & $hm^3$         & \%          \\ \midrule
+    Evaporación                       & 42.7           & 13.6        \\
+    Infiltración                      & 102.4          & 32.5        \\
+    Fugas                             & 33.4           & 10.6        \\
+    Manejo                            & 136.5          & 43.3        \\
+    Total                             & 315            & 100         \\ \bottomrule
+    \end{tabular}
+    \caption{Análisis de la presa Adolfo Ruíz Cortínez}
+    \label{taboc1}
+\end{table}
+Eficiencia de aplicación del riego ($E_a$)
+\begin{equation*}
+    E_a = \frac{V_u}{V_p} = \frac{409hm^3}{545hm^3} \cdot 100 = 75\%
+\end{equation*}
+La eficiencia total de uso de agua para la irrigación ($E_i$)
+\begin{align*}
+    &E_i = E_s \cdot E_c \cdot E_a = 0.88 \cdot 0.634 \cdot 0.75 = 0.42 = 42\%\\
+    &E_i = E_c \cdot E_a = 0.634 \cdot 0.75 = 0.476 = 47.6\%
+\end{align*}

@@ -1,0 +1,108 @@
+\part{Séptimo semestre}
+\chapterimage{9.pdf}
+\chapter{Ingeniería de Riego a Presión}
+\section{Introducción}
+% Catálogos:
+% \begin{itemize}
+%     \item Wade Rain W33, 3J
+%     \item Komet Twin101, aspersor plástico
+%     \item IWOB2
+% \end{itemize}
+% \section{Hidráulica de Tuberías}
+% Tubería Ciega: Cumplen la función de conducir el agua de riego desde el cabezal hasta la entrada de la sección de riego. Se caracteriza por ser una tubería en donde el caidal que entra por un extremos es el mismo que sale al otro extremo.
+
+% \begin{definition}[Pérdida por fricción]
+%     La pérdida de carga en una tubería o canalización es la pérdida de presión
+% \end{definition}
+% \begin{align*}
+%     hf = f \frac{L}{D} \frac{V^2}{2g}\\
+%     hf = 0.0826f\frac{LQ^2}{D^5}
+% \end{align*}
+% Una de las ecuaciones más utilizadas para determinar las pérdidas
+% Factor de fricción
+
+% El factor de fricción (f), refleja la resistencia al flujo debido a la fricción entre el fluido
+
+
+\subsubsection{Las pérdidas por fricción}
+\begin{align*}
+    &\text{Tuberías principales (Ciegas)}&& H_f = J \times L\\
+    &\text{Tuberías Laterles (Salidas Múltiples)}&& H_f= J \times F_{SM} \times L
+\end{align*}
+\begin{notation}
+    \begin{itemize}
+        \item $H_f =$ Pérdidas de carga por fricción [M]
+        \item $J=$ Pérdidas de carga unitaria [m/m]
+        \item $L=$ Longitud de la tubería [m]
+    \end{itemize}
+\end{notation}
+J, expresa en [m/m]
+\begin{equation}
+    H_f = J \times L\lor H_f = J \times F_{SM} \times L
+\end{equation}
+J, expresada en [m/100m]
+\begin{equation}
+    H_f = \frac{J \times L}{100}
+\end{equation}
+Para las salidas Multiples de Christiansen, para $S_o=E$
+\begin{equation}
+    FSM = \frac{1}{m + 1} + \frac{1}{2N} + \frac{\sqrt{m - 1}}{6N^2} 
+\end{equation}
+Para $S_o= E/2$
+\begin{equation}
+    FSM^{\prime} = \frac{1}{2N - 1}\left(\frac{2N}{1 + m} + \frac{\sqrt{m - 1}}{3N}  \right)
+\end{equation}
+\begin{notation}
+    \begin{itemize}
+        \item m= Exponente del caudal de las fórmulas de hf (1.75, 1.80, 1.85, 1.9, 2)
+        \item N= Número de salidas a lo largo de la tubería
+    \end{itemize}
+\end{notation}
+% Fórmulas monómias para J:
+Darcy-Weisbach, modificado por Blasius
+\begin{equation}
+    J = 7.89 \times 10^7 \frac{Q^{1.75}}{D^{4.75}}
+\end{equation}
+Para $D\leq 125mm$ y $400<Re<10^5$, donde $J=\frac{hf(100)}{L}$
+\begin{notation}
+    \begin{itemize}
+        \item J= Pérdidas de carga unitaria (m/100m)
+        \item Q= Gasto de la tubería (lps)
+        \item D= Diámetro interno (mm)
+    \end{itemize}
+\end{notation}
+\begin{example}
+    Calcular la pérdida de carga del cañón viajero con las expresiones de Darcy Weisbach, Hazen-Williams, Scobey, Manning, Dw-Blasius, DW-ASAE: Manguera 280m de $2^{\prime\prime}$
+    \begin{itemize}
+        \item L= 280m
+        \item $D= 2^{\prime\prime} = 50.8mm$
+        \item $Q= f(p)$
+        \item Material: Polietileno alta densidad
+    \end{itemize}
+    \textit{ Sol. }    
+\end{example}
+
+
+
+\subsection{Aspectos de RASPA con riego presurizado}
+\subsection{Evapotranspiración}
+\subsection{Programa de riego}
+\subsection{Hidráulica de tuberías}
+
+
+\section{Riego por aspersión portátil}
+\subsection{Diseño agronómico}
+\subsection{Diseño hidráulico}
+
+
+
+
+
+
+
+
+
+
+
+
+
